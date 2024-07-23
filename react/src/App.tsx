@@ -1,12 +1,12 @@
 import './App.css'
 import Hero from '@/views/Hero'
-import Navbar from '@/components/navbar'
+// import Navbar from '@/components/navbar'
 
 function App() {
 
   return (
     <div className='App'>
-      <Navbar />
+      {/* <Navbar /> */}
 
       <Hero/>
 
