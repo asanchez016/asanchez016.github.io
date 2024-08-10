@@ -1,6 +1,3 @@
 ## Amandine Sanchez Website ##
 
-Hello
-
-React set up
-b
+React static website hosted on github pages
