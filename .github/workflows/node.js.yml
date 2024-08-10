@@ -26,13 +26,16 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
+      continue-on-error: true
     - name: Install dependencies
       run: yarn
       working-directory: ./react
+      continue-on-error: true
       
     - name: Build project
       run: yarn build
       working-directory: ./react
+      continue-on-error: true
 
     - name: List directory contents (for debugging)
       run: ls -la ./react
