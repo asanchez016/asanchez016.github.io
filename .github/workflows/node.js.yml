@@ -34,7 +34,7 @@ jobs:
       run: yarn
       
     - name: Build project
-      run: yarn buildact
+      run: yarn build
       
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
